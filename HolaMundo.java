@@ -4,8 +4,8 @@ public class HolaMundo{
         System.out.println("Aqui estamos haciendo las pruebas con Git");
         String rojo = "/033[32m";
         String azul = "/033[34m";
-        System.out.println("Hola mundo!");
-        System.out.println("Aqui estamos haciendo pruebas en Git.");
+        System.out.println(rojo + "Hola mundo!");
+        System.out.println(azul + "Aqui estamos haciendo pruebas en Git.");
 
     }
 }
